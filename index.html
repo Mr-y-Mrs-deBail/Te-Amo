@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Te Amo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="shortcut icon" href="img/winnie.png" type="image/x-icon">
+
+
+</head>
+<body>
+
+    <div class="imgbody" id="m2"> <img src="img/love-it.gif" alt=""></div>
+
+    <div class="Main" id="m1">
+
+            <h1><span>♡</span>.○･<span class="text">*</span>`◌̊ ｡<span class="text">+</span>･ﾟ
+                <span class="text2" style="--i:1;">E</span><span class="text2" style="--i:2;">s</span><span class="text2" style="--i:3;">c</span><span class="text2" style="--i:4;">r</span><span class="text2" style="--i:5;">i</span><span class="text2" style="--i:6;">b</span><span class="text2" style="--i:7;">e</span>
+                <span class="text2" style="--i:8;">t</span><span class="text2" style="--i:9;">u</span>
+                <span class="text2" style="--i:10;">l</span><span class="text2" style="--i:11;">i</span><span class="text2" style="--i:12;">n</span><span class="text2" style="--i:13;">d</span><span class="text2" style="--i:14;">o</span>
+                <span class="text2" style="--i:15;">n</span><span class="text2" style="--i:16;">o</span><span class="text2" style="--i:17;">m</span><span class="text2" style="--i:18;">b</span><span class="text2" style="--i:19;">r</span><span class="text2" style="--i:20;">e</span> <span>♡</span>`◌̊ ｡<span class="text">+</span>･ﾟ</h1> <br> <br> <h1 class="text2 animated bounce infinite">ヾ(<span>◍</span>╹ꇴ◠<span>◍</span>)ﾉ”◦</h1>
+            <br>
+            <br>
+            <input type="text" placeholder="Name" id="name">
+            <br>
+            <br>
+            <button onclick="Show()">Click me♡</button>
+    </div>
+
+    <div class="contant" id="c1">
+            <h1>Mi</h1>
+            <h1 class="felicidad animated zoomIn">felicidad</h1>
+            <h1>tiene tu lindo nombre</h1>
+            <h2 class="nombre animated jello infinite" id="addname"></h2>
+            <h1>y mi</h1>
+            <h1 class="heart">❤️</h1>
+            <h1>te</h1>
+            <h1>pertenece</h1>
+            <h1>en cada</h1>
+            <h1 class="latido animated tada">latido.</h1>
+
+    </div>
+
+    <div id="vent-floating">
+
+        <a id="ventana" class="btn-floating" href="javascript:abrir()"></a>
+
+      </div>
+
+          <div class="text-floating" id="vent">
+            <p><span class="text">Tú</span> haces que mi mundo sea un lugar lindo, más brillante y lleno de amor. <br><span class="text">Te AmoOooo</span> mi todo.</p>
+
+             <a href="javascript:cerrar()"><b class="close" id="close">x</b></a>
+
+          </div>
+
+    <div><img id="c2" class="gif" src="img/piglet.gif" alt=""></div>
+
+
+
+
+
+    <!-- Esto es el código de java mi amor -->
+
+    <script>
+        function Show(){
+            var name =document.getElementById('name').value;
+
+            if(document.getElementById('name').value==="")
+
+            {
+                alert('ヾ(;´・`)> Oops, aún no has escrito tu lindo nombre mi amor (⺣❛◡❛⺣)♡*, por favor, escríbelo para ver una linda sorpresa, súper especial para ti🎁. Te amoOOOOOOOOO🍂.');
+            }
+            else{
+                document.getElementById('addname').innerHTML=name;
+
+                document.getElementById('m1').style.display="none";
+
+                document.getElementById('m2').style.display="none";
+
+                document.getElementById('c1').style.display="block";
+
+                document.getElementById('c2').style.display="block";
+
+                document.getElementById('vent-floating').style.display="block";
+
+            }
+        }
+    </script>
+
+
+<script>
+
+
+function abrir () {
+document.getElementById("vent") .style.display="block";
+document.getElementById("close") .style.display="block"
+ }
+
+function cerrar(){
+document.getElementById("vent") .style.display="none";
+}
+
+</script>
+    
+</body>
+</html>
