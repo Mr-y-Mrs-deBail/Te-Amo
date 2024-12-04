@@ -22,11 +22,13 @@ body{
     50%{background-position:100% 82%}
     100%{background-position:0% 19%}
 }
+
 @-moz-keyframes color {
     0%{background-position:0% 19%}
     50%{background-position:100% 82%}
     100%{background-position:0% 19%}
 }
+
 @keyframes color {
     0%{background-position:0% 19%}
     50%{background-position:100% 82%}
@@ -34,26 +36,28 @@ body{
 }
 
 /* Esto es para la imagen del inicio mi amor */
-.imgbody{
+
+.imgbody {
     position: absolute;
     width: 220px;
     display: flex;
     margin-top: 260px;
     margin-left: 350px;
 }
+
 /* Esto es para centrar el texto mi amor */
 
-.Main{
+.Main {
     padding-top: 13%;
     align-content: center;
     text-align: center;
 }
 
-span{
+span {
     color: red;
 }
 
-.titulo, .text2{
+.titulo, .text2 {
     display: flex;
     color: #000000;
     display: inline-block;
@@ -61,7 +65,7 @@ span{
     animation-delay: calc(0.1s * var(--i));
 }
 
-@keyframes animación{
+@keyframes animación {
     0%{
         transform: translateY(0px);
     }
@@ -75,7 +79,7 @@ span{
 
 /* Esto es para estilos donde pones tu lindo nombre mi amor */
 
-input{
+input {
     font-size: 35px;
     width: 220px;
     border: 2px solid rgb(255, 255, 255);
@@ -90,7 +94,7 @@ input{
 
 /* Estos son estilos para el botón mi amor */
 
-button{
+button {
     font-family: 'DynaPuff', cursive;
     padding: 10px;
     font-size: 25px;
@@ -103,7 +107,7 @@ button{
     transition: all 0.6s ease;
 }
 
-button:hover{
+button:hover {
     background-color: black;
     color: white;
     border: 3px solid white;
@@ -111,53 +115,53 @@ button:hover{
 
 /* Estos son estilos para el texto mi amor */
 
-.contant{
+.contant {
     font-family: 'DynaPuff', cursive;
-    margin-right: 700px;
+    margin-right: 300px;
     text-align: center;
     letter-spacing: 1px;
-    margin-top: 5%;
+    margin-top: 4%;
     display: none;
     font-size: 20px;
     color: white;
     text-shadow:  0 0 9px rgb(157, 255, 0),
                   0 0 7px #fff,
                   0 0 10px #fff;
-                  z-index: 10000;
+    z-index: 10000;
 }
 
-.contant h2{
+.contant h2 {
     font-size: 60px;
     z-index: 10000;
 }
 
-
 .gif{
     position: absolute;
-    margin-left: 600px;
-    top: 250px;
+    margin-left: 700px;
+    top: 150px;
     display: none;
 }
 
 /* Esto es para la animación del corazón mi amor */
 
-.heart{
+.heart {
     animation: zoom 0.7s linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes zoom{
+@keyframes zoom {
     from { 
         transform: scale(1); 
     } 
     to { 
-        transform: scale(1.2); } 
-    }
+        transform: scale(1.2); 
+    } 
+}
 
 
-    /*Esto es para agregarle diseños al botón mi amor*/
+/*Esto es para agregarle diseños al botón mi amor*/
 
-#vent-floating{
+#vent-floating {
     display: none;
 }
 
@@ -178,17 +182,16 @@ button:hover{
     border: 2px solid #ff0a78;
     color: #ffffff;
     left: 66%;
-    top: 70%;
+    top: 75%;
  }
 
-.btn-floating::before{
+.btn-floating::before {
     content: "Presiona aquí mi amor";
     position: absolute;
     text-align: center;
     margin-right: 13px;
     transform: translate(-50%, -19%);
     transition: .2s ease;
-
 }
 
 .btn-floating:after {
@@ -201,12 +204,12 @@ button:hover{
     opacity: 0;
 }
 
-.btn-floating:hover::before{
+.btn-floating:hover::before {
     transform: translate(-50%, -50%), scale(3);
     opacity: 0;
 }
 
-.btn-floating:hover::after{
+.btn-floating:hover::after {
     transform: translate(-50%, 40%), scale(1);
     opacity: 1;
 }
@@ -240,7 +243,7 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
    font-size: 20px;
 }
 
-.text{
+.text {
     color: #d9ff00;
 }
 
@@ -260,11 +263,21 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 340px) {
+    .Main{
+        margin-right: 30px;
+        font-size: 9px;
+    }
+    .imgbody{
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     body{
         font-size: 10px;
-        width: 310px;
-        margin-left: 35px;
+        width: 300px;
+        margin-left: 45px;
     }
     .imgbody{
         margin-left: 15px;
@@ -288,7 +301,7 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
     .contant{
         margin-top: 15%;
         font-size: 15px;
-        margin-right: -10px;
+        margin-right: 5px;
     }
     .contant h2{
         font-size: 60px;
@@ -300,12 +313,10 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
     .btn-floating {
         position: absolute;
         width: 35%;
-        background-color: transparent;
         color: #ec0faa;
-        border-color: transparent;        
-        left: 50%;
-        top: 78%;
-     }
+        left: 45%;
+        top: 68%;
+    }
     .btn-floating::before{
         content: "Presiona aquí mi amor";
         position: absolute;
@@ -330,8 +341,8 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
     }
     .gif{
         position: absolute;
-        width: 200px;
-        margin-left: -20px;
-        top: 584px;
+        width: 130px;
+        margin-left: -10px;
+        top: 495px;
     }
 }
