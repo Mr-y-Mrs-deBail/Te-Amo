@@ -149,6 +149,8 @@ button:hover {
     animation-iteration-count: infinite;
 }
 
+/* Animación para nuestro lindo corazón amor */
+
 @keyframes zoom {
     from { 
         transform: scale(1); 
