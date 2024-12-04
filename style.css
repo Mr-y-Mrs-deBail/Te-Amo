@@ -301,7 +301,7 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
         margin-top: 15px;  
     }    
     .contant{
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 15px;
         margin-right: 5px;
     }
@@ -317,7 +317,7 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
         width: 35%;
         color: #ec0faa;
         left: 45%;
-        top: 68%;
+        top: 73%;
     }
     .btn-floating::before{
         content: "Presiona aquí mi amor";
@@ -345,6 +345,6 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
         position: absolute;
         width: 130px;
         margin-left: -10px;
-        top: 495px;
+        top: 510px;
     }
 }
