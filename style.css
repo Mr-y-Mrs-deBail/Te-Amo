@@ -263,6 +263,8 @@ le puedes cambiar el color blanco al que tú quieras mi amor*/
     display: none;
 }
 
+/* Responsivo */
+
 @media screen and (max-width: 340px) {
     .Main{
         margin-right: 30px;
